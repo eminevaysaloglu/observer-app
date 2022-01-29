@@ -1,0 +1,37 @@
+@import "components/variables.scss";
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../../../assets/images/bg-login-image.jpg");
+    .Mui-focused > .MuiInputAdornment-root > svg > path {
+        color: #1976d2;
+    }
+
+    &-button.MuiButton-root {
+        color: $white;
+        font-weight: $font-weight-400;
+        background-color: $cornflowers-70;
+        box-shadow: none;
+
+        &:hover {
+            background-color: $cornflowers-70;
+            box-shadow: 5px 5px 15px 5px rgba(0,207,232,0.24);
+        }
+    }
+
+    .MuiPaper-root {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-right-grid {
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        
+    }
+}

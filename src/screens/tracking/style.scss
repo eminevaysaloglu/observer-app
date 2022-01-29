@@ -1,0 +1,60 @@
+.livetracking-container {
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+
+  #leafletmap {
+    width: 100%;
+    height: 99vh;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+  }
+
+  &-filter-area {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    &-filter-button {
+      z-index: 5;
+      top: 20px;
+    }
+  }
+
+  .leafletmap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    .leaflet-pane {
+      z-index: 19 !important;
+    }
+    &-info {
+      position: absolute;
+      padding: 20px;
+      overflow: auto;
+
+      right: 10px;
+      bottom: 10px;
+      background-color: rgb(255, 255, 255);
+      z-index: 20;
+      max-height: 400px;
+      box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+      display: grid;
+      grid-gap: 10px;
+      border-radius: 8px;
+    }
+  }
+
+
+.active {
+  @apply bg-slate-400;
+}
+}
+
+
+.leaflet-pane {
+  z-index: 49 !important;
+}

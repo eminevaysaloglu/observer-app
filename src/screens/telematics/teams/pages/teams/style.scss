@@ -1,0 +1,44 @@
+.teams-list {
+    display: flex;
+    flex-direction: column;
+
+    &-circular-progress {
+        margin: auto;
+    }
+
+    &-table-area {
+        width: 100%;
+        margin: auto;
+
+        &-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-table {
+            margin: auto;
+            width: 100%;
+        }
+
+        &-pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-left: auto;
+        }
+
+        .MuiDataGrid-root {
+            min-height: 400px;
+        }
+    }
+}
+
+.table-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.MuiDataGrid-virtualScrollerContent {
+    min-height: 400px;
+}

@@ -1,0 +1,17 @@
+.show-row {
+  display: flex;
+  width: 100%;
+  .title {
+    width: 30%;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+    font-weight: 500;
+  }
+
+  .description {
+    width: 70%;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+  }
+}

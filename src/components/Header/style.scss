@@ -1,0 +1,32 @@
+@import "../variables.scss";
+
+.main-header {
+    background-color: $sky-blue-100;
+    position: fixed;
+    right: 20px;
+    left: 90px;
+    top: 1.3rem;
+    height: 70px;
+    border-radius: $border-radius-default;
+    transition: 1s all;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: $spacing-s;
+    padding: 0 $spacing-m;
+    z-index: 198;
+    box-shadow: 5px 5px 15px 5px rgba(79, 208, 232, 0.66);
+
+    &.sidebar-open {
+        left: 290px;
+    }
+
+    &-right {
+        justify-content: flex-end;
+        grid-gap: $spacing-s;
+
+        .MuiAvatar-circular {
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.account-contianer {
+    width: 80%;
+
+    &-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        margin-top: 30px;
+        &-input {
+            width: 100%;
+            .MuiFormControl-root {
+                margin-top: 0 !important;
+            }
+        }
+
+        &-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-self: center;
+        }
+    }
+}

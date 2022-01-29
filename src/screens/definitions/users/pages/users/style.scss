@@ -1,0 +1,134 @@
+.users-list {
+  display: flex;
+  flex-direction: column;
+
+  &-circular-progress {
+    margin: auto;
+  }
+
+  &-table-area {
+    width: 100%;
+    margin: auto;
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-table {
+      margin: auto;
+      width: 100%;
+    }
+
+    &-pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-left: auto;
+    }
+  }
+}
+
+.table-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.MuiDataGrid-virtualScrollerContent {
+  min-height: 400px;
+}
+
+.m-top-10 {
+  margin-top: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.ma-20 {
+  margin: 20px;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.user-detail-modal {
+
+  &-close-icon-button {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &-content {
+    margin: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .title {
+        font-size: 16px;
+        letter-spacing: 0.15px;
+        font-weight: 500;
+      }
+
+      .description {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        font-weight: lighter;
+      }
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+
+      .row {
+        display: flex;
+        width: 100%;
+        .title {
+          width: 30%;
+          font-size: 16px;
+          letter-spacing: 0.15px;
+          font-weight: 500;
+        }
+
+        .description {
+          width: 70%;
+          font-size: 14px;
+          letter-spacing: 0.5px;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+}
+
+.ma-10 {
+  margin: 10px;
+}

@@ -1,0 +1,46 @@
+#leafletmap {
+    width: 100%; 
+    height: 100vh; 
+    border-radius: 8px; 
+    -webkit-box-shadow: 5px 5px 50px 5px rgba(0,0,0,0.2); 
+    box-shadow: 5px 5px 50px 5px rgba(0,0,0,0.2);
+}
+
+.plate_rectangle {
+    height: 25px;
+    width: 90px;
+    border-radius: 2%;
+    border:1px black solid;
+    padding-left: 12px;
+    padding-right: 1px;
+    background-color: #FDFEFE;
+}
+
+.plate_number{
+    margin-top: 0;
+    padding-top: 5px;
+    color: #000000;
+
+}
+
+.blue_tr{
+    background-color: blue;
+    color: white;
+    font-family: bold;
+    float: left;
+    margin-left: -12px;
+    margin-right: 5px;
+    padding-top: 12.8px;
+    font-size: 7px;
+}
+
+.red_tr{
+    background-color: red;
+    color: white;
+    font-family: bold;
+    float: left;
+    margin-left: -12px;
+    margin-right: 5px;
+    padding-top: 12.8px;
+    font-size: 7px;
+}
